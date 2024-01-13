@@ -88,13 +88,67 @@
 
   width: 100%;
   margin-top: 5vh;
+
   }
+
+  /* second step started */
+
+  .second-step{
+    display: flex;
+    gap: 76px;
+    margin: 85px 200px 0px 300px;
+  
+  }
+
+ .team{
+
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+  width: 100%;
+ }
+
+ .second-content{
+  padding-top: 216px;
+ }
+
+ .second-content > p{
+
+  color: #727272;
+   font-size: 1rem;
+   font-weight: 400 ;
+ }
+/* second step finish */
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* media */
 
 
   @media screen and ( max-width : 576px) {
-    
+    /* first */
     header{
 
       padding:20px;  
@@ -103,6 +157,28 @@
   nav{
     flex-direction: column;
 }
+/* second */
+.second-step{
+    display:block;
+  
+    margin: 0 20px;
+
+  
+  }
+.team{
+
+  display: block;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.second-content{
+ padding-top: 10px;
+}
+
+
+
+
 }
 
 /* tablet */
@@ -118,7 +194,30 @@ header{
   padding: 50px;
 }
 
+/* second */
+
+.second-step{
+  display:block;
+ padding: 0px;
+ margin: 5rem 20px;
+
+}
+.team{
+
+display:grid;
+grid-template-columns: repeat(2,1fr);
+gap: 24px;
+}
+
+.second-content{
+padding-top: 10px;
+
+}
+
+
+
 
 
 
 }
+
