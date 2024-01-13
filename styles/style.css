@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+ 
+  *{
+   font-family: 'Work Sans', sans-serif;
+  }
+
+  nav{
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+  }
+
+  nav>ul{
+
+   display: flex;
+   gap: 5vw;
+ 
+  }
+
+  header{
+   padding: 50px 230px;
+   background: rgba(255, 144, 14, 0.10);
+  }
+
+  nav >ul>li{
+
+   list-style: none;
+  }
+  
+
+  nav li  a {
+
+   text-decoration: none;
+   color: #424242;
+   text-transform: capitalize;
+   font-size: 1rem;
+   font-weight: 500;
+   cursor: pointer;
+  }
+
+  nav> h1{
+
+   font-size: 3rem;
+   color:  #131313;
+   font-weight: 700;
+   
+  }
+
+  .text-1{
+
+   text-align: center;
+  }
+
+  .text-1 > h1{
+
+
+   color: #131313;
+   font-size: 4rem;
+   font-weight: 700;
+
+  }
+
+  .text-1 > p{
+
+   color: #727272;
+   font-size: 1rem;
+   font-weight: 400 ;
+  }
+
+  .primary-btn{
+
+   color:#FFF ;
+   border-radius: 8px;
+   background-color: #FF900E;
+   font-size: 20px ;
+   font-weight: 600 ;
+   border: none;
+   height: 64px ;
+   width: 180px;
+   margin-top: 2rem;
+   cursor: pointer;
+  }
+
+  header > img{
+
+  width: 100%;
+  margin-top: 5vh;
+  }
+
+  /* media */
+
+
+  @media screen and ( max-width : 576px) {
+    
+    header{
+
+      padding:20px;  
+    
+  }
+  nav{
+    flex-direction: column;
+}
+}
+
+/* tablet */
+
+
+@media screen and (min-width:576px) and (max-width : 960px) {
+  nav{
+    flex-direction: column;
+}
+
+header{
+
+  padding: 50px;
+}
+
+
+
+
+}
